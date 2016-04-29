@@ -1,0 +1,157 @@
+<templateSet group="Dan's">
+  <template name="link" value="{@link $LINK$}" toReformat="false" toShortenFQNames="true">
+    <variable name="LINK" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_COMMENT" value="true" />
+    </context>
+  </template>
+  <template name="mm" value="// //////////////////////////////////////&#10;" description="Separator comment" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="k0gwt" value="//&#10;// given&#10;//&#10;&#10;//&#10;// when&#10;//&#10;&#10;//&#10;// then&#10;//" description="given when then" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="GROOVY_EXPRESSION" value="false" />
+      <option name="GROOVY_STATEMENT" value="false" />
+      <option name="GROOVY_DECLARATION" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="k1given" value="//&#10;// given&#10;//&#10;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="GROOVY_EXPRESSION" value="false" />
+      <option name="GROOVY_STATEMENT" value="false" />
+      <option name="GROOVY_DECLARATION" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="k3then" value="//&#10;// then&#10;//&#10;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="GROOVY_EXPRESSION" value="false" />
+      <option name="GROOVY_STATEMENT" value="false" />
+      <option name="GROOVY_DECLARATION" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="k2when" value="//&#10;// when&#10;//&#10;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="GROOVY_EXPRESSION" value="false" />
+      <option name="GROOVY_STATEMENT" value="false" />
+      <option name="GROOVY_DECLARATION" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="asj" value="Assertions.assertThat($object$)$END$" description="Assertions.assertThat" toReformat="false" toShortenFQNames="true" useStaticImport="true">
+    <variable name="object" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="fixp" value="//region &gt; $propertyName$ (input property)&#10;private $PropertyType$ $propertyName$;&#10;public $PropertyType$ get$PropertyName$() {&#10;    return $propertyName$;&#10;}&#10;public void set$PropertyName$(final $PropertyType$ $propertyName$) {&#10;    this.$propertyName$ = $propertyName$;&#10;}&#10;//endregion" description="Fixture property" toReformat="false" toShortenFQNames="true">
+    <variable name="propertyName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PropertyType" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PropertyName" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="k4expect" value="//&#10;// expect&#10;//&#10;" description="Expect" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="GROOVY_EXPRESSION" value="false" />
+      <option name="GROOVY_STATEMENT" value="false" />
+      <option name="GROOVY_DECLARATION" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="psc_pde" value="public static class $PropertyName$Event extends PropertyDomainEvent&lt;$PropertyType$&gt; {&#10;}" description="declare PropertyDomainEvent" toReformat="false" toShortenFQNames="true">
+    <variable name="PropertyName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PropertyType" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="psc_cde" value="public static class $CollectionName$Event extends CollectionDomainEvent&lt;$CollectionType$&gt; {&#10;}" description="declare CollectionDomainEvent" toReformat="false" toShortenFQNames="true">
+    <variable name="CollectionName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CollectionType" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="psc_ade" value="public static class $ActionName$Event extends ActionDomainEvent {&#10;}" description="declare ActionDomainEvent" toReformat="false" toShortenFQNames="true">
+    <variable name="ActionName" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+</templateSet>

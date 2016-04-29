@@ -1,0 +1,20 @@
+<application>
+  <component name="CodeInsightSettings">
+    <option name="HIGHLIGHT_SCOPE" value="true" />
+    <option name="OPTIMIZE_IMPORTS_ON_THE_FLY" value="true" />
+    <option name="ADD_UNAMBIGIOUS_IMPORTS_ON_THE_FLY" value="true" />
+    <EXCLUDED_PACKAGE NAME="com.google.common.base.Predicates.equalTo" />
+    <EXCLUDED_PACKAGE NAME="com.sun.javafx.fxml.expression.Expression.equalTo" />
+    <EXCLUDED_PACKAGE NAME="com.sun.org.apache.xerces.internal.util.FeatureState.is" />
+    <EXCLUDED_PACKAGE NAME="com.sun.org.apache.xerces.internal.util.PropertyState.is" />
+    <EXCLUDED_PACKAGE NAME="javafx.beans.binding.BooleanExpression" />
+    <EXCLUDED_PACKAGE NAME="javax.xml.ws.Action" />
+    <EXCLUDED_PACKAGE NAME="org.hamcrest.MatcherAssert.assertThat" />
+    <EXCLUDED_PACKAGE NAME="org.hamcrest.Matchers.is" />
+    <EXCLUDED_PACKAGE NAME="org.hamcrest.Matchers.not" />
+    <EXCLUDED_PACKAGE NAME="org.hamcrest.core.Is.is" />
+    <EXCLUDED_PACKAGE NAME="org.hamcrest.core.IsEqual.equalTo" />
+    <EXCLUDED_PACKAGE NAME="org.hamcrest.core.IsNot.not" />
+    <EXCLUDED_PACKAGE NAME="sun.nio.cs.Surrogate.is" />
+  </component>
+</application>

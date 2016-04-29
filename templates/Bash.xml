@@ -1,0 +1,9 @@
+<templateSet group="Bash">
+  <template name="ife" value="if $test$; then&#10;    $cmd$&#10;else &#10;    $END$&#10;fi" description="if-else statement" toReformat="false" toShortenFQNames="true">
+    <variable name="test" expression="" defaultValue="&quot;test&quot;" alwaysStopAt="true" />
+    <variable name="cmd" expression="" defaultValue="&quot;echo&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+    </context>
+  </template>
+</templateSet>

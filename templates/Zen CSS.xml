@@ -1,0 +1,7 @@
+<templateSet group="Zen CSS">
+  <template name="te:a" value="text-emphasis:after;" description="text-emphasis:after;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+    </context>
+  </template>
+</templateSet>

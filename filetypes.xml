@@ -1,0 +1,8 @@
+<application>
+  <component name="FileTypeManager" version="16">
+    <extensionMap>
+      <mapping ext="ftl" type="PLAIN_TEXT" />
+      <mapping ext="filters" type="PLAIN_TEXT" />
+    </extensionMap>
+  </component>
+</application>
