@@ -15,6 +15,7 @@
     <EXCLUDED_PACKAGE NAME="org.hamcrest.core.Is.is" />
     <EXCLUDED_PACKAGE NAME="org.hamcrest.core.IsEqual.equalTo" />
     <EXCLUDED_PACKAGE NAME="org.hamcrest.core.IsNot.not" />
+    <EXCLUDED_PACKAGE NAME="org.junit.Assert.assertEquals" />
     <EXCLUDED_PACKAGE NAME="sun.nio.cs.Surrogate.is" />
   </component>
 </application>
