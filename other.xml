@@ -107,7 +107,7 @@
     <resource url="http://isis.apache.org/applib/layout/component/component.xsd" location="$USER_HOME$/.IdeaIC15/system/extResources/80431609_component.xsd" />
     <resource url="http://isis.apache.org/applib/layout/grid/bootstrap3/bootstrap3.xsd" location="$USER_HOME$/.IdeaIC15/system/extResources/d917747e_bootstrap3.xsd" />
     <resource url="http://isis.apache.org/schema/common/common-1.0.xsd" location="$USER_HOME$/.IdeaIC14/system/extResources/d4451dc5_common-1.0.xsd" />
-    <resource url="http://isis.apache.org/schema/common/common.xsd" location="$USER_HOME$/.IdeaIC14/system/extResources/202705f_common.xsd" />
+    <resource url="http://isis.apache.org/schema/common/common.xsd" location="$USER_HOME$/.IdeaIC15/system/extResources/202705f_common.xsd" />
     <resource url="http://java.sun.com/xml/ns/jaxb/bindingschema_2_0.xsd" location="$USER_HOME$/.IdeaIC15/system/extResources/bb0478df_bindingschema_2_0.xsd" />
     <resource url="http://jaxb2-commons.dev.java.net/namespace-prefix" location="$USER_HOME$/.IdeaIC15/system/extResources/eda2fa7d_prefix-namespace-schema.xsd" />
     <resource url="http://schemas.xmlsoap.org/soap/envelope/" location="$USER_HOME$/.IdeaIC14/system/extResources/a74f2ac0_.xml" />
