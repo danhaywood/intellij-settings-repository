@@ -3,7 +3,7 @@
     <option name="customScope" value="Project 'trunk'" />
     <option name="defaultScopeName" value="Project 'trunk'" />
     <option name="SEARCH_SCOPE" value="Project 'trunk'" />
-    <option name="FILE_MASK" value="pom.xml" />
+    <option name="FILE_MASK" value="*.java" />
     <recentFileMasks>
       <mask>*.jsp</mask>
       <mask>*.as</mask>
@@ -25,8 +25,8 @@
       <mask>*.layout.xml</mask>
       <mask>*.xml</mask>
       <mask>*.adoc</mask>
-      <mask>*.java</mask>
       <mask>pom.xml</mask>
+      <mask>*.java</mask>
     </recentFileMasks>
   </component>
 </application>
