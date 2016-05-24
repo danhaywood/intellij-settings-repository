@@ -47,7 +47,7 @@
               <option name="commandLine" value="site" />
             </Goal>
             <Goal>
-              <option name="commandLine" value="jetty:run" />
+              <option name="commandLine" value="jetty:run -o" />
             </Goal>
           </list>
         </option>
