@@ -5,6 +5,7 @@
     <option name="defaultScopeName" value="Project Files" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="Project Files" />
+    <option name="FILE_MASK" value="*.java" />
     <recentFileMasks>
       <mask>*.jsp</mask>
       <mask>*.as</mask>
@@ -20,14 +21,14 @@
       <mask>*.layout.json</mask>
       <mask>logging.properties</mask>
       <mask>web.xml</mask>
-      <mask>*.html</mask>
       <mask>*.js</mask>
       <mask>*.html,*.js</mask>
       <mask>*.layout.xml</mask>
       <mask>*.xml</mask>
       <mask>*.adoc</mask>
-      <mask>*.java</mask>
       <mask>pom.xml</mask>
+      <mask>*.html</mask>
+      <mask>*.java</mask>
     </recentFileMasks>
   </component>
 </application>
