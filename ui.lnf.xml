@@ -7,6 +7,7 @@
     <option name="SHOW_STATUS_BAR" value="false" />
     <option name="SHOW_CLOSE_BUTTON" value="false" />
     <option name="HIDE_KNOWN_EXTENSION_IN_TABS" value="true" />
+    <option name="COLOR_BLINDNESS" value="deuteranopia" />
     <option name="ENABLE_ALPHA_MODE" value="true" />
     <option name="ALPHA_MODE_RATIO" value="0.17" />
     <option name="OVERRIDE_NONIDEA_LAF_FONTS" value="true" />
