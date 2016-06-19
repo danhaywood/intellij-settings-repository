@@ -3,7 +3,7 @@
     <option name="customScope" value="Project Files" />
     <option name="defaultScopeName" value="Project Files" />
     <option name="SEARCH_SCOPE" value="Project Files" />
-    <option name="FILE_MASK" value="*.adoc" />
+    <option name="FILE_MASK" value="pom.xml" />
     <recentFileMasks>
       <mask>*.jsp</mask>
       <mask>*.as</mask>
@@ -23,10 +23,10 @@
       <mask>*.html,*.js</mask>
       <mask>*.layout.xml</mask>
       <mask>*.xml</mask>
-      <mask>pom.xml</mask>
       <mask>*.html</mask>
       <mask>*.java</mask>
       <mask>*.adoc</mask>
+      <mask>pom.xml</mask>
     </recentFileMasks>
   </component>
 </application>
