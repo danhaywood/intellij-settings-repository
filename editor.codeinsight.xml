@@ -9,6 +9,8 @@
     <EXCLUDED_PACKAGE NAME="com.sun.org.apache.xerces.internal.util.PropertyState.is" />
     <EXCLUDED_PACKAGE NAME="javafx.beans.binding.BooleanExpression" />
     <EXCLUDED_PACKAGE NAME="javax.xml.ws.Action" />
+    <EXCLUDED_PACKAGE NAME="org.assertj.core.api.Assertions.assertThat" />
+    <EXCLUDED_PACKAGE NAME="org.assertj.core.api.AssertionsForInterfaceTypes.assertThat" />
     <EXCLUDED_PACKAGE NAME="org.hamcrest.MatcherAssert.assertThat" />
     <EXCLUDED_PACKAGE NAME="org.hamcrest.Matchers.is" />
     <EXCLUDED_PACKAGE NAME="org.hamcrest.Matchers.not" />
