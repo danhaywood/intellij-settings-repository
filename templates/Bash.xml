@@ -4,6 +4,7 @@
     <variable name="cmd" expression="" defaultValue="&quot;echo&quot;" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
+      <option name="Bash" value="true" />
     </context>
   </template>
 </templateSet>
