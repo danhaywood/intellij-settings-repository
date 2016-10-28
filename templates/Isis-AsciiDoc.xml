@@ -16,7 +16,9 @@
     <context />
   </template>
   <template name="adadmimportant" value="[IMPORTANT]&#10;====&#10;$END$&#10;====&#10;" description="Important admonition" toReformat="false" toShortenFQNames="true">
-    <context />
+    <context>
+      <option name="AsciiDoc" value="true" />
+    </context>
   </template>
   <template name="adadmwarning" value="[WARNING]&#10;====&#10;$END$&#10;====&#10;" description="Warning admonition" toReformat="false" toShortenFQNames="true">
     <context />
