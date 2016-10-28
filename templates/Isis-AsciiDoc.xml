@@ -43,7 +43,9 @@
     <context />
   </template>
   <template name="adsrcxml" value="[source,xml]&#10;----&#10;$END$&#10;----&#10;" description="Source code (XML)" toReformat="false" toShortenFQNames="true">
-    <context />
+    <context>
+      <option name="AsciiDoc" value="true" />
+    </context>
   </template>
   <template name="adsrcother" value="[source,$LANG$]&#10;----&#10;$END$&#10;----&#10;" description="Source code (None)" toReformat="false" toShortenFQNames="true">
     <variable name="LANG" expression="" defaultValue="" alwaysStopAt="true" />
