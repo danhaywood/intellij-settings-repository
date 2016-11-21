@@ -5,7 +5,7 @@
     <option name="localCaseSensitive" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="Project Files" />
-    <option name="FILE_MASK" value="*.adoc" />
+    <option name="FILE_MASK" value="*.properties" />
     <recentFileMasks>
       <mask>*.jsp</mask>
       <mask>*.as</mask>
@@ -17,7 +17,6 @@
       <mask>*.wsdl, *.xsd</mask>
       <mask>*.md, *.adoc</mask>
       <mask>*.md</mask>
-      <mask>*.properties</mask>
       <mask>*.layout.json</mask>
       <mask>logging.properties</mask>
       <mask>web.xml</mask>
@@ -29,6 +28,7 @@
       <mask>*.java</mask>
       <mask>*.html</mask>
       <mask>*.adoc</mask>
+      <mask>*.properties</mask>
     </recentFileMasks>
   </component>
 </application>
