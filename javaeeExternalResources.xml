@@ -1,5 +1,6 @@
 <application>
   <component name="ExternalResourceManagerImpl">
+    <resource url="http://isis.apache.org/applib/layout/component" location="$USER_HOME$/.IdeaIC2016.2/system/extResources/80431609_component.xsd" />
     <resource url="http://isis.apache.org/applib/layout/component/component.xsd" location="$USER_HOME$/.IdeaIC15/system/extResources/80431609_component.xsd" />
     <resource url="http://isis.apache.org/applib/layout/grid/bootstrap3/bootstrap3.xsd" location="$USER_HOME$/.IdeaIC15/system/extResources/d917747e_bootstrap3.xsd" />
     <resource url="http://isis.apache.org/schema/common/common-1.0.xsd" location="$USER_HOME$/.IdeaIC14/system/extResources/d4451dc5_common-1.0.xsd" />
