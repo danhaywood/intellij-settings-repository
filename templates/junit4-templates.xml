@@ -2,8 +2,8 @@
   <template name="juafter" value="@org.junit.After&#10;public void tearDown() throws Exception {&#10;    $END$&#10;}" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
-      <option name="JAVA_COMMENT" value="false" />
       <option name="JAVA_STRING" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
       <option name="COMPLETION" value="false" />
     </context>
   </template>
@@ -12,16 +12,16 @@
     <variable name="matcher" expression="&quot;matcher&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
-      <option name="JAVA_COMMENT" value="false" />
       <option name="JAVA_STRING" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
       <option name="COMPLETION" value="false" />
     </context>
   </template>
   <template name="jubefore" value="@org.junit.Before&#10;public void setUp() throws Exception {&#10;    $END$&#10;}" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
-      <option name="JAVA_COMMENT" value="false" />
       <option name="JAVA_STRING" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
       <option name="COMPLETION" value="false" />
     </context>
   </template>
@@ -29,8 +29,8 @@
     <variable name="xxx" expression="&quot;xxx&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
-      <option name="JAVA_COMMENT" value="false" />
       <option name="JAVA_STRING" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
       <option name="COMPLETION" value="false" />
     </context>
   </template>
