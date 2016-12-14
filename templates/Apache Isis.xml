@@ -273,4 +273,16 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
+  <template name="ism-a" value="@Mixin(method=&quot;$method$&quot;)&#10;public static class $behaviour$ {&#10;    private final $MixedInType$ $mixedInType$;&#10;    public $behaviour$(final $MixedInType$ $mixedInType$) {&#10;        this.$mixedInType$ = $mixedInType$;&#10;    }&#10;    @org.apache.isis.applib.annotation.Action()&#10;    @org.apache.isis.applib.annotation.ActionLayout(contributed=Contributed.AS_ACTION)&#10;    public $ReturnType$ $method$(final $ParameterType$ $parameterType$) {&#10;        return $END$null; // TODO: business logic here&#10;    }&#10;}&#10;" description="Apache Isis Mixin - action" toReformat="false" toShortenFQNames="true">
+    <variable name="method" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="behaviour" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="MixedInType" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="mixedInType" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ReturnType" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ParameterType" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="parameterType" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
 </templateSet>
