@@ -1,0 +1,37 @@
+<templateSet group="Apache Isis mixins">
+  <template name="ism - a" value="//region &gt; $mixinName$ (action)&#10;@Mixin(method=&quot;$method$&quot;)&#10;public static class $mixinName$ {&#10;    private final $MixedInType$ $mixedInType$;&#10;    public $mixinName$(final $MixedInType$ $mixedInType$) {&#10;        this.$mixedInType$ = $mixedInType$;&#10;    }&#10;    public static class DomainEvent extends org.apache.isis.applib.services.eventbus.ActionDomainEvent&lt;$MixedInType$&gt; {&#10;    }&#10;    @org.apache.isis.applib.annotation.Action(semantics = SemanticsOf.NON_IDEMPOTENT, domainEvent = DomainEvent.class)&#10;    @org.apache.isis.applib.annotation.ActionLayout(contributed=Contributed.AS_ACTION)&#10;    public $ReturnType$ $method$(final $ParameterType$ $parameterType$) {&#10;        $END$// TODO: business logic here&#10;        return $mixedInType$; &#10;    }&#10;    public boolean hide$Method$() {&#10;        return false;&#10;    }&#10;    public String disable$Method$() {&#10;        return null;&#10;    }&#10;    public String validate0$Method$(final $ParameterType$ $parameterType$) {&#10;        return null;&#10;    }&#10;    public java.util.List&lt;$ParameterType$&gt; choices0$Method$() {&#10;        return java.util.Collections.emptyList();&#10;    }&#10;    public $ParameterType$ default0$Method$() {&#10;        return null;&#10;    }&#10;}&#10;//endregion" description="Apache Isis Mixin - action" toReformat="false" toShortenFQNames="true">
+    <variable name="mixinName" expression="" defaultValue="&quot;updateName&quot;" alwaysStopAt="true" />
+    <variable name="MixedInType" expression="className()" defaultValue="className()" alwaysStopAt="true" />
+    <variable name="ReturnType" expression="className()" defaultValue="className()" alwaysStopAt="true" />
+    <variable name="ParameterType" expression="completeSmart()" defaultValue="&quot;String&quot;" alwaysStopAt="true" />
+    <variable name="parameterType" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <variable name="method" expression="" defaultValue="&quot;act&quot;" alwaysStopAt="false" />
+    <variable name="Method" expression="" defaultValue="capitalize(method)" alwaysStopAt="false" />
+    <variable name="mixedInType" expression="" defaultValue="camelCase(className())" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="ism - c" value="//region &gt; $mixinName$ (derived collection)&#10;@Mixin(method=&quot;$method$&quot;)&#10;public static class $mixinName$ {&#10;    private final $MixedInType$ $mixedInType$;&#10;    public $mixinName$(final $MixedInType$ $mixedInType$) {&#10;        this.$mixedInType$ = $mixedInType$;&#10;    }&#10;    public static class DomainEvent extends org.apache.isis.applib.services.eventbus.ActionDomainEvent&lt;$MixedInType$&gt; {&#10;    }&#10;    @org.apache.isis.applib.annotation.Action(semantics = SemanticsOf.SAFE, domainEvent = DomainEvent.class)&#10;    @org.apache.isis.applib.annotation.ActionLayout(contributed=Contributed.AS_ASSOCIATION)&#10;    public java.util.List&lt;$ReturnType$&gt; $method$() {&#10;        $END$// TODO: business logic here&#10;        return java.util.Collections.emptyList();&#10;    }&#10;    public boolean hide$Method$() {&#10;        return false;&#10;    }&#10;}&#10;//endregion" description="Apache Isis Mixin - derived collection" toReformat="false" toShortenFQNames="true">
+    <variable name="ReturnType" expression="className()" defaultValue="className()" alwaysStopAt="true" />
+    <variable name="mixinName" expression="" defaultValue="groovyScript(&quot;def str=_1; return str + \&quot;s\&quot;; &quot;, camelCase(ReturnType) + &quot;s&quot;)" alwaysStopAt="true" />
+    <variable name="MixedInType" expression="className()" defaultValue="className()" alwaysStopAt="true" />
+    <variable name="method" expression="" defaultValue="&quot;coll&quot;" alwaysStopAt="true" />
+    <variable name="Method" expression="" defaultValue="capitalize(method)" alwaysStopAt="false" />
+    <variable name="mixedInType" expression="" defaultValue="camelCase(className())" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="ism - p" value="//region &gt; $mixinName$ (derived property)&#10;@Mixin(method=&quot;$method$&quot;)&#10;public static class $mixinName$ {&#10;    private final $MixedInType$ $mixedInType$;&#10;    public $mixinName$(final $MixedInType$ $mixedInType$) {&#10;        this.$mixedInType$ = $mixedInType$;&#10;    }&#10;    public static class DomainEvent extends org.apache.isis.applib.services.eventbus.ActionDomainEvent&lt;$MixedInType$&gt; {&#10;    }&#10;    @org.apache.isis.applib.annotation.Action(semantics = SemanticsOf.SAFE, domainEvent = DomainEvent.class)&#10;    @org.apache.isis.applib.annotation.ActionLayout(contributed=Contributed.AS_ASSOCIATION)&#10;    public $ReturnType$ $method$() {&#10;        $END$// TODO: business logic here&#10;        return null; &#10;    }&#10;    public boolean hide$Method$() {&#10;        return false;&#10;    }&#10;}&#10;//endregion" description="Apache Isis Mixin - derived property" toReformat="false" toShortenFQNames="true">
+    <variable name="mixinName" expression="" defaultValue="camelCase(ReturnType)" alwaysStopAt="true" />
+    <variable name="MixedInType" expression="className()" defaultValue="className()" alwaysStopAt="true" />
+    <variable name="ReturnType" expression="className()" defaultValue="className()" alwaysStopAt="true" />
+    <variable name="method" expression="" defaultValue="&quot;prop&quot;" alwaysStopAt="true" />
+    <variable name="Method" expression="" defaultValue="capitalize(method)" alwaysStopAt="false" />
+    <variable name="mixedInType" expression="" defaultValue="camelCase(className())" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+</templateSet>
