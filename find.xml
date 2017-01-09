@@ -5,7 +5,7 @@
     <option name="regularExpressions" value="true" />
     <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="Project Files" />
-    <option name="FILE_MASK" value="*.html" />
+    <option name="FILE_MASK" value="*.adoc" />
     <recentFileMasks>
       <mask>*.jsp</mask>
       <mask>*.as</mask>
@@ -27,8 +27,8 @@
       <mask>*.properties</mask>
       <mask>pom.xml</mask>
       <mask>*.java</mask>
-      <mask>*.adoc</mask>
       <mask>*.html</mask>
+      <mask>*.adoc</mask>
     </recentFileMasks>
   </component>
 </application>
