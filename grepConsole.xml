@@ -9,10 +9,10 @@
           <option name="grepExpressionGroups">
             <list>
               <GrepExpressionGroup>
-                <option name="enabled" value="true" />
                 <option name="grepExpressionItems">
                   <list>
                     <GrepExpressionItem>
+                      <option name="enabled" value="false" />
                       <option name="grepExpression" value=".*SELECT.*" />
                       <option name="id" value="d38a7bd1-9478-4ec2-9163-21808395fc91" />
                       <option name="style">
@@ -28,6 +28,7 @@
                       </option>
                     </GrepExpressionItem>
                     <GrepExpressionItem>
+                      <option name="enabled" value="false" />
                       <option name="grepExpression" value=".*INSERT.*" />
                       <option name="id" value="060e2f5a-7dd0-44c5-9e62-8bd9235f9b0a" />
                       <option name="style">
@@ -43,6 +44,7 @@
                       </option>
                     </GrepExpressionItem>
                     <GrepExpressionItem>
+                      <option name="enabled" value="false" />
                       <option name="grepExpression" value=".*CREATE TABLE.*" />
                       <option name="id" value="226234f7-673f-4d0b-af67-560ec617f208" />
                       <option name="style">
@@ -64,6 +66,7 @@
                       </option>
                     </GrepExpressionItem>
                     <GrepExpressionItem>
+                      <option name="enabled" value="false" />
                       <option name="grepExpression" value=".*UPDATE.*" />
                       <option name="id" value="56120222-b3e3-494f-8540-cc3323024f35" />
                       <option name="style">
@@ -79,6 +82,7 @@
                       </option>
                     </GrepExpressionItem>
                     <GrepExpressionItem>
+                      <option name="enabled" value="false" />
                       <option name="grepExpression" value=".*DELETE.*" />
                       <option name="id" value="49d6219e-412b-4dd2-9d03-d76d7c642060" />
                       <option name="style">
