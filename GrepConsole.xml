@@ -210,7 +210,7 @@
             </list>
           </option>
           <option name="id" value="1431456937439" />
-          <option name="maxProcessingTime" value="250" />
+          <option name="maxProcessingTime" value="100" />
         </Profile>
       </list>
     </option>
