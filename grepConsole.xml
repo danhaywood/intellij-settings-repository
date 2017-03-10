@@ -8,10 +8,10 @@
           <option name="grepExpressionGroups">
             <list>
               <GrepExpressionGroup>
-                <option name="enabled" value="true" />
                 <option name="grepExpressionItems">
                   <list>
                     <GrepExpressionItem>
+                      <option name="enabled" value="false" />
                       <option name="grepExpression" value=".*SELECT.*" />
                       <option name="id" value="d38a7bd1-9478-4ec2-9163-21808395fc91" />
                       <option name="style">
@@ -27,6 +27,7 @@
                       </option>
                     </GrepExpressionItem>
                     <GrepExpressionItem>
+                      <option name="enabled" value="false" />
                       <option name="grepExpression" value=".*INSERT.*" />
                       <option name="id" value="060e2f5a-7dd0-44c5-9e62-8bd9235f9b0a" />
                       <option name="style">
@@ -42,6 +43,7 @@
                       </option>
                     </GrepExpressionItem>
                     <GrepExpressionItem>
+                      <option name="enabled" value="false" />
                       <option name="grepExpression" value=".*CREATE TABLE.*" />
                       <option name="id" value="226234f7-673f-4d0b-af67-560ec617f208" />
                       <option name="style">
@@ -63,6 +65,7 @@
                       </option>
                     </GrepExpressionItem>
                     <GrepExpressionItem>
+                      <option name="enabled" value="false" />
                       <option name="grepExpression" value=".*UPDATE.*" />
                       <option name="id" value="56120222-b3e3-494f-8540-cc3323024f35" />
                       <option name="style">
@@ -78,6 +81,7 @@
                       </option>
                     </GrepExpressionItem>
                     <GrepExpressionItem>
+                      <option name="enabled" value="false" />
                       <option name="grepExpression" value=".*DELETE.*" />
                       <option name="id" value="49d6219e-412b-4dd2-9d03-d76d7c642060" />
                       <option name="style">
@@ -100,6 +104,7 @@
                 <option name="grepExpressionItems">
                   <list>
                     <GrepExpressionItem>
+                      <option name="enabled" value="false" />
                       <option name="grepExpression" value=".*FATAL.*" />
                       <option name="id" value="9672ef2c-566a-4750-aa49-2c176cf53f67" />
                       <option name="style">
@@ -122,6 +127,7 @@
                       </option>
                     </GrepExpressionItem>
                     <GrepExpressionItem>
+                      <option name="enabled" value="false" />
                       <option name="grepExpression" value=".*ERROR.*" />
                       <option name="id" value="7a5998b6-5f01-45cc-bc71-eba0a8364951" />
                       <option name="style">
@@ -137,6 +143,7 @@
                       </option>
                     </GrepExpressionItem>
                     <GrepExpressionItem>
+                      <option name="enabled" value="false" />
                       <option name="grepExpression" value=".*WARN.*" />
                       <option name="id" value="421fc61d-4681-46d8-9bd4-5a21fbd71d3e" />
                       <option name="style">
@@ -152,6 +159,7 @@
                       </option>
                     </GrepExpressionItem>
                     <GrepExpressionItem>
+                      <option name="enabled" value="false" />
                       <option name="grepExpression" value=".*DEBUG.*" />
                       <option name="id" value="cf0f3ca8-3c6e-4b30-a37b-3d4b7a3ad585" />
                       <option name="inputFilter" value="true" />
@@ -168,6 +176,7 @@
                       </option>
                     </GrepExpressionItem>
                     <GrepExpressionItem>
+                      <option name="enabled" value="false" />
                       <option name="grepExpression" value=".*INFO.*" />
                       <option name="id" value="f2136dce-dde6-4623-8153-bba0b3f2e5cd" />
                       <option name="style">
@@ -189,6 +198,7 @@
                       </option>
                     </GrepExpressionItem>
                     <GrepExpressionItem>
+                      <option name="enabled" value="false" />
                       <option name="grepExpression" value=".*TRACE.*" />
                       <option name="id" value="952ac3e5-3ca4-4076-a2b1-e860ffa4c11d" />
                       <option name="style">
@@ -210,7 +220,7 @@
             </list>
           </option>
           <option name="id" value="1431456937439" />
-          <option name="maxProcessingTime" value="250" />
+          <option name="maxProcessingTime" value="100" />
         </Profile>
       </list>
     </option>
