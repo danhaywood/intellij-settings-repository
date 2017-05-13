@@ -1,5 +1,5 @@
 <templateSet group="Dan's">
-  <template name="link" value="{@link $LINK$}" toReformat="false" toShortenFQNames="true">
+  <template name="link" value="{@link $LINK$}" description="" toReformat="false" toShortenFQNames="true">
     <variable name="LINK" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_COMMENT" value="true" />
@@ -12,26 +12,26 @@
   </template>
   <template name="k0gwt" value="//&#10;// given&#10;//&#10;&#10;//&#10;// when&#10;//&#10;&#10;//&#10;// then&#10;//" description="given when then" toReformat="true" toShortenFQNames="true">
     <context>
-      <option name="JAVA_STATEMENT" value="true" />
       <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="k1given" value="//&#10;// given&#10;//&#10;" toReformat="true" toShortenFQNames="true">
+  <template name="k1given" value="//&#10;// given&#10;//&#10;" description="" toReformat="true" toShortenFQNames="true">
     <context>
-      <option name="JAVA_STATEMENT" value="true" />
       <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="k3then" value="//&#10;// then&#10;//&#10;" toReformat="true" toShortenFQNames="true">
+  <template name="k3then" value="//&#10;// then&#10;//&#10;" description="" toReformat="true" toShortenFQNames="true">
     <context>
-      <option name="JAVA_STATEMENT" value="true" />
       <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="k2when" value="//&#10;// when&#10;//&#10;" toReformat="true" toShortenFQNames="true">
+  <template name="k2when" value="//&#10;// when&#10;//&#10;" description="" toReformat="true" toShortenFQNames="true">
     <context>
-      <option name="JAVA_STATEMENT" value="true" />
       <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
   <template name="asj" value="Assertions.assertThat($object$)$END$" description="Assertions.assertThat" toReformat="false" toShortenFQNames="true" useStaticImport="true">
@@ -50,8 +50,8 @@
   </template>
   <template name="k4expect" value="//&#10;// expect&#10;//&#10;" description="Expect" toReformat="true" toShortenFQNames="true">
     <context>
-      <option name="JAVA_STATEMENT" value="true" />
       <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
   <template name="psc_pde" value="public static class $PropertyName$Event extends PropertyDomainEvent&lt;$PropertyType$&gt; {&#10;}" description="declare PropertyDomainEvent" toReformat="false" toShortenFQNames="true">

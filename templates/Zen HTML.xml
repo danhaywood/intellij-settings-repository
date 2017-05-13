@@ -2,6 +2,7 @@
   <template name="a" value="&lt;a href=&quot;$VAR0$&quot;&gt;$END$&lt;/a&gt;" description="&lt;a href=&quot;...&quot;&gt;...&lt;/a&gt;" toReformat="false" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
     <context>
+      <option name="JSP" value="true" />
       <option name="JSX_HTML" value="true" />
     </context>
   </template>
@@ -9,8 +10,9 @@
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
     <variable name="VAR1" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
     <context>
-      <option name="XSL_TEXT" value="true" />
+      <option name="JSP" value="true" />
       <option name="JSX_HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
     </context>
   </template>
 </templateSet>
