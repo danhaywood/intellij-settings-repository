@@ -1,19 +1,19 @@
 <application>
   <component name="UISettings">
-    <option name="FONT_SIZE" value="14" />
-    <option name="EDITOR_TAB_LIMIT" value="6" />
-    <option name="HIDE_TOOL_STRIPES" value="false" />
-    <option name="SHOW_MEMORY_INDICATOR" value="true" />
-    <option name="SHOW_STATUS_BAR" value="false" />
-    <option name="SHOW_CLOSE_BUTTON" value="false" />
-    <option name="HIDE_KNOWN_EXTENSION_IN_TABS" value="true" />
-    <option name="COLOR_BLINDNESS" value="deuteranopia" />
-    <option name="ENABLE_ALPHA_MODE" value="true" />
     <option name="ALPHA_MODE_RATIO" value="0.17" />
-    <option name="OVERRIDE_NONIDEA_LAF_FONTS" value="true" />
-    <option name="USE_SMALL_LABELS_ON_TABS" value="true" />
-    <option name="MAX_LOOKUP_LIST_HEIGHT" value="20" />
+    <option name="COLOR_BLINDNESS" value="deuteranopia" />
+    <option name="EDITOR_TAB_LIMIT" value="6" />
+    <option name="ENABLE_ALPHA_MODE" value="true" />
+    <option name="FONT_SCALE" value="1.0" />
+    <option name="FONT_SIZE" value="14" />
+    <option name="HIDE_KNOWN_EXTENSION_IN_TABS" value="true" />
+    <option name="HIDE_TOOL_STRIPES" value="false" />
     <option name="MARK_MODIFIED_TABS_WITH_ASTERISK" value="true" />
+    <option name="MAX_LOOKUP_LIST_HEIGHT" value="20" />
     <option name="NAVIGATE_TO_PREVIEW" value="true" />
+    <option name="OVERRIDE_NONIDEA_LAF_FONTS" value="true" />
+    <option name="SHOW_CLOSE_BUTTON" value="false" />
+    <option name="SHOW_MEMORY_INDICATOR" value="true" />
+    <option name="USE_SMALL_LABELS_ON_TABS" value="true" />
   </component>
 </application>
