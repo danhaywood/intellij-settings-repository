@@ -47,9 +47,8 @@
     <keyboard-shortcut first-keystroke="ctrl m" />
   </action>
   <action id="Macro.delete_copyright_to_package">
-    <keyboard-shortcut first-keystroke="ctrl alt semicolon" />
-    <keyboard-shortcut first-keystroke="alt p" second-keystroke="alt p" />
     <keyboard-shortcut first-keystroke="alt p" second-keystroke="p" />
+    <keyboard-shortcut first-keystroke="alt close_bracket" second-keystroke="o" />
   </action>
   <action id="NextOccurence">
     <keyboard-shortcut first-keystroke="ctrl alt down" />
