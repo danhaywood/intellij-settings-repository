@@ -1,8 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Project Files" />
-    <option name="defaultScopeName" value="Project Files" />
-    <option name="SEARCH_SCOPE" value="Project Files" />
+    <option name="customScope" value="File '[incode-module-base-dom] - C:\GITHUB\incodehq\platform\modules\lib-base\lib\src\main\java\org\incode\module\base\dom\types\FqcnType.java'" />
+    <option name="defaultScopeName" value="File '[incode-module-base-dom] - C:\GITHUB\incodehq\platform\modules\lib-base\lib\src\main\java\org\incode\module\base\dom\types\FqcnType.java'" />
+    <option name="SEARCH_SCOPE" value="File '[incode-module-base-dom] - C:\GITHUB\incodehq\platform\modules\lib-base\lib\src\main\java\org\incode\module\base\dom\types\FqcnType.java'" />
     <recentFileMasks>
       <mask>*.jsp</mask>
       <mask>*.as</mask>
