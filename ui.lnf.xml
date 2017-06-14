@@ -14,6 +14,7 @@
     <option name="OVERRIDE_NONIDEA_LAF_FONTS" value="true" />
     <option name="SHOW_CLOSE_BUTTON" value="false" />
     <option name="SHOW_MEMORY_INDICATOR" value="true" />
+    <option name="SHOW_STATUS_BAR" value="false" />
     <option name="USE_SMALL_LABELS_ON_TABS" value="true" />
   </component>
 </application>
