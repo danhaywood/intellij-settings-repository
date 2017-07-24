@@ -46,6 +46,14 @@
     <keyboard-shortcut first-keystroke="shift ctrl f12" />
     <keyboard-shortcut first-keystroke="ctrl m" />
   </action>
+  <action id="Macro.delete_copyright_to_package">
+    <keyboard-shortcut first-keystroke="alt p" second-keystroke="p" />
+    <keyboard-shortcut first-keystroke="alt close_bracket" second-keystroke="o" />
+  </action>
+  <action id="NextOccurence">
+    <keyboard-shortcut first-keystroke="ctrl alt down" />
+    <keyboard-shortcut first-keystroke="alt p" second-keystroke="alt open_bracket" />
+  </action>
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="ctrl page_down" />
   </action>

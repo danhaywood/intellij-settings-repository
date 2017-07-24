@@ -1,0 +1,16 @@
+<application>
+  <component name="ActionMacroManager">
+    <macro name="delete_copyright_to_package">
+      <shortuct text="ENTER" />
+      <action id="Find" />
+      <typing text-keycode="80:0;65:0;67:0;75:0;65:0;71:0;69:0">package</typing>
+      <shortuct text="ENTER" />
+      <shortuct text="LEFT" />
+      <action id="EditorLineStart" />
+      <shortuct text="ESCAPE" />
+      <action id="EditorLineStart" />
+      <action id="EditorPageUpWithSelection" />
+      <action id="EditorDelete" />
+    </macro>
+  </component>
+</application>

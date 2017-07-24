@@ -1,12 +1,9 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Project Files" />
-    <option name="defaultScopeName" value="Project Files" />
-    <option name="SEARCH_SCOPE" value="Project Files" />
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
+    <option name="SEARCH_SCOPE" value="All Places" />
     <recentFileMasks>
-      <mask>*.jsp</mask>
-      <mask>*.as</mask>
-      <mask>*.css</mask>
       <mask>*.mxml</mask>
       <mask>*.pdf</mask>
       <mask>*.wsdl</mask>
@@ -21,11 +18,22 @@
       <mask>*.html,*.js</mask>
       <mask>*.layout.xml</mask>
       <mask>*.xml</mask>
-      <mask>*.properties</mask>
+      <mask>*</mask>
+      <mask>*.</mask>
+      <mask>*.a</mask>
+      <mask>*.ad</mask>
+      <mask>*.ado</mask>
+      <mask>*.adoc</mask>
+      <mask>p</mask>
+      <mask>pom</mask>
+      <mask>pom.</mask>
       <mask>*.java</mask>
+      <mask>*.proper</mask>
+      <mask>*.propert</mask>
+      <mask>*.properti</mask>
+      <mask>*.properties</mask>
       <mask>*.html</mask>
       <mask>pom.xml</mask>
-      <mask>*.adoc</mask>
     </recentFileMasks>
   </component>
 </application>
