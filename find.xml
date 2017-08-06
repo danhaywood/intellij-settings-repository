@@ -3,8 +3,8 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.adoc" />
     <recentFileMasks>
-      <mask>*.mxml</mask>
       <mask>*.pdf</mask>
       <mask>*.wsdl</mask>
       <mask>*.wsdl *.xsd</mask>
@@ -18,12 +18,7 @@
       <mask>*.html,*.js</mask>
       <mask>*.layout.xml</mask>
       <mask>*.xml</mask>
-      <mask>*</mask>
-      <mask>*.</mask>
       <mask>*.a</mask>
-      <mask>*.ad</mask>
-      <mask>*.ado</mask>
-      <mask>*.adoc</mask>
       <mask>p</mask>
       <mask>pom</mask>
       <mask>pom.</mask>
@@ -34,6 +29,12 @@
       <mask>*.properties</mask>
       <mask>*.html</mask>
       <mask>pom.xml</mask>
+      <mask>*</mask>
+      <mask>*.</mask>
+      <mask>*.adc</mask>
+      <mask>*.ad</mask>
+      <mask>*.ado</mask>
+      <mask>*.adoc</mask>
     </recentFileMasks>
   </component>
 </application>
