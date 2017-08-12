@@ -91,4 +91,10 @@
   <action id="Vcs.ShowMessageHistory">
     <keyboard-shortcut first-keystroke="ctrl e" />
   </action>
+  <action id="org.asciidoc.intellij.actions.editorlayout.EditorAndPreviewLayoutChangeAction">
+    <keyboard-shortcut first-keystroke="ctrl alt 0" />
+  </action>
+  <action id="org.asciidoc.intellij.actions.editorlayout.EditorOnlyLayoutChangeAction">
+    <keyboard-shortcut first-keystroke="ctrl alt 9" />
+  </action>
 </keymap>
