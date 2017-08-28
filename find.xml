@@ -5,9 +5,8 @@
     <option name="localCaseSensitive" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="LICE*" />
     <recentFileMasks>
-      <mask>*.pdf</mask>
-      <mask>*.wsdl</mask>
       <mask>*.wsdl *.xsd</mask>
       <mask>*.wsdl, *.xsd</mask>
       <mask>*.md, *.adoc</mask>
@@ -20,22 +19,24 @@
       <mask>*.layout.xml</mask>
       <mask>*.xml</mask>
       <mask>*.a</mask>
-      <mask>p</mask>
-      <mask>pom</mask>
-      <mask>pom.</mask>
       <mask>*.java</mask>
       <mask>*.proper</mask>
       <mask>*.propert</mask>
       <mask>*.properti</mask>
       <mask>*.properties</mask>
       <mask>*.html</mask>
-      <mask>pom.xml</mask>
       <mask>*</mask>
       <mask>*.</mask>
       <mask>*.adc</mask>
       <mask>*.ad</mask>
       <mask>*.ado</mask>
       <mask>*.adoc</mask>
+      <mask>p</mask>
+      <mask>pom</mask>
+      <mask>pom.</mask>
+      <mask>pom.xml</mask>
+      <mask>LICE</mask>
+      <mask>LICE*</mask>
     </recentFileMasks>
   </component>
 </application>
