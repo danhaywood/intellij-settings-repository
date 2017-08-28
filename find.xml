@@ -5,9 +5,8 @@
     <option name="localCaseSensitive" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.xml" />
+    <option name="FILE_MASK" value="*.html" />
     <recentFileMasks>
-      <mask>*.md</mask>
       <mask>*.layout.json</mask>
       <mask>logging.properties</mask>
       <mask>web.xml</mask>
@@ -19,24 +18,25 @@
       <mask>*.propert</mask>
       <mask>*.properti</mask>
       <mask>*.properties</mask>
-      <mask>*.html</mask>
       <mask>*.adc</mask>
-      <mask>*.ad</mask>
       <mask>*.ado</mask>
-      <mask>*.adoc</mask>
       <mask>p</mask>
       <mask>pom</mask>
       <mask>pom.</mask>
       <mask>pom.xml</mask>
       <mask>LICE</mask>
       <mask>LICE*</mask>
-      <mask>*</mask>
-      <mask>*.</mask>
       <mask>*.j</mask>
       <mask>*.jva</mask>
       <mask>*.jv</mask>
       <mask>*.java</mask>
       <mask>*.xml</mask>
+      <mask>*.ad</mask>
+      <mask>*.adoc</mask>
+      <mask>*</mask>
+      <mask>*.</mask>
+      <mask>*.h</mask>
+      <mask>*.html</mask>
     </recentFileMasks>
   </component>
 </application>
