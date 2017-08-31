@@ -3,6 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.adoc" />
     <recentFileMasks>
       <mask>logging.properties</mask>
       <mask>web.xml</mask>
@@ -25,7 +26,6 @@
       <mask>*.a</mask>
       <mask>*.ad</mask>
       <mask>*.ado</mask>
-      <mask>*.adoc</mask>
       <mask>p</mask>
       <mask>pom</mask>
       <mask>pom.</mask>
@@ -34,6 +34,7 @@
       <mask>*.</mask>
       <mask>*.x</mask>
       <mask>*.xml</mask>
+      <mask>*.adoc</mask>
     </recentFileMasks>
   </component>
 </application>
