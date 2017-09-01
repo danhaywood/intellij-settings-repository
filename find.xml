@@ -7,8 +7,6 @@
     <option name="SEARCH_SCOPE" value="All Places" />
     <option name="FILE_MASK" value="*.adoc" />
     <recentFileMasks>
-      <mask>logging.properties</mask>
-      <mask>web.xml</mask>
       <mask>*.js</mask>
       <mask>*.html,*.js</mask>
       <mask>*.layout.xml</mask>
@@ -26,16 +24,18 @@
       <mask>*.h</mask>
       <mask>*.html</mask>
       <mask>*.a</mask>
-      <mask>*.ad</mask>
-      <mask>*.ado</mask>
+      <mask>*.x</mask>
+      <mask>*.xml</mask>
       <mask>p</mask>
+      <mask>po</mask>
       <mask>pom</mask>
       <mask>pom.</mask>
+      <mask>pom.x</mask>
       <mask>pom.xml</mask>
       <mask>*</mask>
       <mask>*.</mask>
-      <mask>*.x</mask>
-      <mask>*.xml</mask>
+      <mask>*.ad</mask>
+      <mask>*.ado</mask>
       <mask>*.adoc</mask>
     </recentFileMasks>
   </component>
