@@ -1,33 +1,20 @@
 <application>
   <component name="FindSettings">
-    <option name="caseSensitive" value="true" />
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
-    <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.xml" />
     <recentFileMasks>
-      <mask>*.js</mask>
-      <mask>*.html,*.js</mask>
-      <mask>*.layout.xml</mask>
-      <mask>*.proper</mask>
-      <mask>*.propert</mask>
       <mask>*.properti</mask>
-      <mask>*.properties</mask>
       <mask>*.adc</mask>
       <mask>LICE</mask>
       <mask>LICE*</mask>
-      <mask>*.j</mask>
       <mask>*.jva</mask>
       <mask>*.jv</mask>
-      <mask>*.java</mask>
       <mask>*.h</mask>
       <mask>*.html</mask>
       <mask>*.a</mask>
-      <mask>*.x</mask>
-      <mask>*.xml</mask>
       <mask>pom.x</mask>
-      <mask>*</mask>
-      <mask>*.</mask>
       <mask>*.ad</mask>
       <mask>*.ado</mask>
       <mask>*.adoc</mask>
@@ -36,6 +23,18 @@
       <mask>pom</mask>
       <mask>pom.</mask>
       <mask>pom.xml</mask>
+      <mask>*</mask>
+      <mask>*.java</mask>
+      <mask>*.jav</mask>
+      <mask>*.ja</mask>
+      <mask>*.j</mask>
+      <mask>*.</mask>
+      <mask>*.pr</mask>
+      <mask>*.proper</mask>
+      <mask>*.propert</mask>
+      <mask>*.properties</mask>
+      <mask>*.x</mask>
+      <mask>*.xml</mask>
     </recentFileMasks>
   </component>
 </application>
