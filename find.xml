@@ -1,8 +1,13 @@
 <application>
   <component name="FindSettings">
+    <option name="caseSensitive" value="true" />
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
+    <option name="wholeWordsOnly" value="true" />
+    <option name="CASE_SENSITIVE_SEARCH" value="true" />
+    <option name="WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.adoc" />
     <recentFileMasks>
       <mask>*.properti</mask>
       <mask>*.adc</mask>
@@ -12,9 +17,7 @@
       <mask>*.jv</mask>
       <mask>*.h</mask>
       <mask>*.html</mask>
-      <mask>*.ado</mask>
       <mask>po</mask>
-      <mask>*</mask>
       <mask>*.java</mask>
       <mask>*.jav</mask>
       <mask>*.ja</mask>
@@ -28,12 +31,14 @@
       <mask>*.xml</mask>
       <mask>*.a</mask>
       <mask>*.ad</mask>
-      <mask>*.adoc</mask>
       <mask>p</mask>
       <mask>pom</mask>
       <mask>pom.</mask>
       <mask>pom.x</mask>
       <mask>pom.xml</mask>
+      <mask>*</mask>
+      <mask>*.ado</mask>
+      <mask>*.adoc</mask>
     </recentFileMasks>
   </component>
 </application>
