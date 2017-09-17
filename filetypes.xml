@@ -4,6 +4,7 @@
       <mapping pattern="Dockerfile" type="PLAIN_TEXT" />
       <mapping pattern="toc-scroll" type="PLAIN_TEXT" />
       <mapping ext="ftl" type="PLAIN_TEXT" />
+      <mapping ext="xxdoc" type="PLAIN_TEXT" />
       <mapping ext="new" type="PLAIN_TEXT" />
       <mapping ext="orm" type="PLAIN_TEXT" />
       <mapping ext="filters" type="PLAIN_TEXT" />
