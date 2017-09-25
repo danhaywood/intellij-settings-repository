@@ -13,8 +13,6 @@
       <mask>*.x</mask>
       <mask>pom.x</mask>
       <mask>*</mask>
-      <mask>*.adoc</mask>
-      <mask>*.ado</mask>
       <mask>*.ad</mask>
       <mask>*.a</mask>
       <mask>*.java</mask>
@@ -34,6 +32,8 @@
       <mask>pom</mask>
       <mask>pom.</mask>
       <mask>pom.xml</mask>
+      <mask>*.ado</mask>
+      <mask>*.adoc</mask>
     </recentFileMasks>
   </component>
 </application>
