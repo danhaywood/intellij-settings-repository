@@ -13,8 +13,6 @@
       <mask>*.x</mask>
       <mask>pom.x</mask>
       <mask>*.a</mask>
-      <mask>*.java</mask>
-      <mask>*.jav</mask>
       <mask>*.ja</mask>
       <mask>*.j</mask>
       <mask>*.xmlpom</mask>
@@ -31,6 +29,8 @@
       <mask>*.ado</mask>
       <mask>po</mask>
       <mask>pom.xml</mask>
+      <mask>*.jav</mask>
+      <mask>*.java</mask>
       <mask>*</mask>
       <mask>*.</mask>
       <mask>*.ad</mask>
