@@ -4,12 +4,10 @@
     <option name="defaultScopeName" value="All Places" />
     <option name="localCaseSensitive" value="true" />
     <option name="localWholeWordsOnly" value="true" />
-    <option name="regularExpressions" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="LOCAL_WHOLE_WORDS_ONLY" value="true" />
-    <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.adoc" />
+    <option name="FILE_MASK" value="*.java" />
     <recentFileMasks>
       <mask>*.html</mask>
       <mask>*.pr</mask>
@@ -36,11 +34,11 @@
       <mask>po</mask>
       <mask>pom.xml</mask>
       <mask>*.jav</mask>
-      <mask>*.java</mask>
-      <mask>*</mask>
-      <mask>*.</mask>
       <mask>*.ad</mask>
       <mask>*.adoc</mask>
+      <mask>*</mask>
+      <mask>*.</mask>
+      <mask>*.java</mask>
     </recentFileMasks>
   </component>
 </application>
