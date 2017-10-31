@@ -1,0 +1,5 @@
+<templateSet group="surround">
+  <template name="FO" value="// @formatter:off&#10;$SELECTION$&#10;// @formatter:on&#10;$END$" description="Surround with @formatter:off" toReformat="false" toShortenFQNames="false" deactivated="true">
+    <context />
+  </template>
+</templateSet>
