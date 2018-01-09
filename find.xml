@@ -5,7 +5,7 @@
     <option name="localRegularExpressions" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.adoc" />
+    <option name="FILE_MASK" value="pom.xml" />
     <recentFileMasks>
       <mask>*.x</mask>
       <mask>pom.x</mask>
@@ -24,10 +24,6 @@
       <mask>*.jav</mask>
       <mask>*</mask>
       <mask>*.</mask>
-      <mask>p</mask>
-      <mask>pom</mask>
-      <mask>pom.</mask>
-      <mask>pom.xml</mask>
       <mask>*.p</mask>
       <mask>*.pr</mask>
       <mask>*.proper</mask>
@@ -37,6 +33,10 @@
       <mask>*.ad</mask>
       <mask>*.ado</mask>
       <mask>*.adoc</mask>
+      <mask>p</mask>
+      <mask>pom</mask>
+      <mask>pom.</mask>
+      <mask>pom.xml</mask>
     </recentFileMasks>
   </component>
 </application>
