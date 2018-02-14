@@ -2,8 +2,6 @@
   <component name="FindSettings">
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
-    <option name="regularExpressions" value="true" />
-    <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
     <recentFileMasks>
       <mask>pom.x</mask>
@@ -27,7 +25,6 @@
       <mask>*.properties</mask>
       <mask>*.ad</mask>
       <mask>*.ado</mask>
-      <mask>*.adoc</mask>
       <mask>p</mask>
       <mask>pom</mask>
       <mask>pom.</mask>
@@ -36,6 +33,7 @@
       <mask>po*.xml</mask>
       <mask>pom*.xml</mask>
       <mask>pom.xml</mask>
+      <mask>*.adoc</mask>
     </recentFileMasks>
   </component>
 </application>
