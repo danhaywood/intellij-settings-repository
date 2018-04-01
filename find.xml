@@ -3,6 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="pom.xml" />
     <recentFileMasks>
       <mask>pom.x</mask>
       <mask>*.a</mask>
@@ -32,8 +33,8 @@
       <mask>*.xml</mask>
       <mask>po*.xml</mask>
       <mask>pom*.xml</mask>
-      <mask>pom.xml</mask>
       <mask>*.adoc</mask>
+      <mask>pom.xml</mask>
     </recentFileMasks>
   </component>
 </application>
