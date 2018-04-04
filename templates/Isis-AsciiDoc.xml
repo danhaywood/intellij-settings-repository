@@ -31,7 +31,7 @@
       <option name="AsciiDoc" value="true" />
     </context>
   </template>
-  <template name="adimgfile" value="image::{_imagesdir}$INCLUDED$/$FILE$.png[width=&quot;$END$$WIDTH$px&quot;,link=&quot;{_imagesdir}$INCLUDED$/$FILE$.png&quot;]" description="Image link to file" toReformat="false" toShortenFQNames="true">
+  <template name="adimgfile" value="image::_images$INCLUDED$/$FILE$.png[width=&quot;$END$$WIDTH$px&quot;,link=&quot;_images$INCLUDED$/$FILE$.png&quot;]" description="Image link to file" toReformat="false" toShortenFQNames="true">
     <variable name="INCLUDED" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="FILE" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="WIDTH" expression="" defaultValue="" alwaysStopAt="true" />
@@ -121,7 +121,7 @@
       <option name="AsciiDoc" value="true" />
     </context>
   </template>
-  <template name="adimgfilec" value=".$CAPTION$&#10;image::{_imagesdir}$INCLUDED$/$FILE$.png[width=&quot;$END$$WIDTH$px&quot;,link=&quot;{_imagesdir}$INCLUDED$/$FILE$.png&quot;]" description="Image link to file with caption" toReformat="false" toShortenFQNames="true">
+  <template name="adimgfilec" value=".$CAPTION$&#10;image::_images$INCLUDED$/$FILE$.png[width=&quot;$END$$WIDTH$px&quot;,link=&quot;_images$INCLUDED$/$FILE$.png&quot;]" description="Image link to file with caption" toReformat="false" toShortenFQNames="true">
     <variable name="CAPTION" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="INCLUDED" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="FILE" expression="" defaultValue="" alwaysStopAt="true" />
