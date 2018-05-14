@@ -2,38 +2,10 @@
   <component name="FindSettings">
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
+    <option name="localCaseSensitive" value="true" />
+    <option name="localRegularExpressions" value="true" />
+    <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
+    <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <recentFileMasks>
-      <mask>pom.x</mask>
-      <mask>*.a</mask>
-      <mask>*.ja</mask>
-      <mask>*.j</mask>
-      <mask>*.xmlpom</mask>
-      <mask>*.xmlpo</mask>
-      <mask>*.xmlp</mask>
-      <mask>p*.xml</mask>
-      <mask>we.xml</mask>
-      <mask>web.xml</mask>
-      <mask>po</mask>
-      <mask>*.jav</mask>
-      <mask>*</mask>
-      <mask>*.</mask>
-      <mask>*.p</mask>
-      <mask>*.pr</mask>
-      <mask>*.proper</mask>
-      <mask>*.properti</mask>
-      <mask>*.properties</mask>
-      <mask>*.ad</mask>
-      <mask>*.ado</mask>
-      <mask>p</mask>
-      <mask>pom</mask>
-      <mask>pom.</mask>
-      <mask>*.xml</mask>
-      <mask>po*.xml</mask>
-      <mask>pom*.xml</mask>
-      <mask>*.adoc</mask>
-      <mask>pom.xml</mask>
-      <mask>*.java</mask>
-    </recentFileMasks>
   </component>
 </application>
